@@ -7,8 +7,8 @@
     <ProjectGuid>{8D292362-956D-49C2-86FC-3591F8931E54}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>LocationSlugger.Tests</RootNamespace>
-    <AssemblyName>LocationSlugger.Tests</AssemblyName>
+    <RootNamespace>AlexJamesBrown.LocationSlugUtility.Tests</RootNamespace>
+    <AssemblyName>AlexJamesBrown.LocationSlugUtility.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -44,16 +44,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LocationSluggerTests.cs" />
+    <Compile Include="LocationSlugUtilityTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\LocationSlugger\LocationSlugger.csproj">
-      <Project>{0B176A5E-6D33-4314-B2AA-1EDB5499BFC3}</Project>
-      <Name>LocationSlugger</Name>
+    <ProjectReference Include="..\LocationSlugUtility\LocationSlugUtility.csproj">
+      <Project>{0b176a5e-6d33-4314-b2aa-1edb5499bfc3}</Project>
+      <Name>LocationSlugUtility</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
