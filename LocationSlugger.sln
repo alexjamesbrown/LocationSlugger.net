@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocationSlugUtility", "LocationSlugUtility\LocationSlugUtility.csproj", "{0B176A5E-6D33-4314-B2AA-1EDB5499BFC3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocationSlugger", "LocationSlugger\LocationSlugger.csproj", "{0B176A5E-6D33-4314-B2AA-1EDB5499BFC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocationSlugUtility.Tests", "LocationSlugUtility.Tests\LocationSlugUtility.Tests.csproj", "{8D292362-956D-49C2-86FC-3591F8931E54}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocationSlugger.Tests", "LocationSlugger.Tests\LocationSlugger.Tests.csproj", "{8D292362-956D-49C2-86FC-3591F8931E54}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

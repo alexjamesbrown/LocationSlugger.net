@@ -7,8 +7,8 @@
     <ProjectGuid>{0B176A5E-6D33-4314-B2AA-1EDB5499BFC3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AlexJamesBrown.LocationSlugUtility</RootNamespace>
-    <AssemblyName>AlexJamesBrown.LocationSlugUtility</AssemblyName>
+    <RootNamespace>LocationSlugger</RootNamespace>
+    <AssemblyName>LocationSlugger</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,8 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ILocationSlugUtility.cs" />
-    <Compile Include="Utility.cs" />
+    <Compile Include="ILocationSlugger.cs" />
+    <Compile Include="LocationSlugger.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

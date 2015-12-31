@@ -1,6 +1,6 @@
-namespace AlexJamesBrown.LocationSlugUtility
+namespace LocationSlugger
 {
-    public interface ILocationSlugUtility
+    public interface ILocationSlugger
     {
         string Slug(string stringLocation);
 
