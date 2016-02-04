@@ -1,6 +1,6 @@
 ﻿namespace LocationSlugger
 {
-    public class LocationSlugger : ILocationSlugger
+    public class LocationSlugUtility : ILocationSlugUtility
     {
         /// <summary>
         /// Takes a location string and turns it into a url friendly 'slug'

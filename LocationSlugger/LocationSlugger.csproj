@@ -40,8 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ILocationSlugger.cs" />
-    <Compile Include="LocationSlugger.cs" />
+    <Compile Include="ILocationSlugUtility.cs" />
+    <Compile Include="LocationSlugUtility.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
